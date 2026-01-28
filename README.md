@@ -20,7 +20,7 @@ Aquí se muestra la interfaz principal y el sistema de perfilamiento dinámico:
 * **Power BI / Power Query:** Implementado para el proceso de **ETL**, modelado relacional y diseño de la interfaz de usuario.
 
 ## Arquitectura y Modelado de Datos
-Para garantizar la integridad y escalabilidad de los reportes, implementé un **Modelo en Estrella (Star Schema)** conectando tres entidades clave:
+Para garantizar la integridad y escalabilidad de los reportes, implementé un **Modelo en Estrella** conectando tres entidades clave:
 * **Tabla de Hechos (`Ventas`):** Contiene el registro histórico de transacciones (fechas, SKUs, unidades).
 * **Dimensión Vendedores:** Maestro de datos con **geolocalización** y atributos de perfil (fotografía).
 * **Dimensión Productos:** Catálogo técnico con estructura de precios, costos y **niveles de stock**.
