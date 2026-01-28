@@ -25,8 +25,6 @@ Para garantizar la integridad y escalabilidad de los reportes, implementé un **
 * **Dimensión Vendedores:** Maestro de datos con **geolocalización** y atributos de perfil (fotografía).
 * **Dimensión Productos:** Catálogo técnico con estructura de precios, costos y **niveles de stock**.
 
-> **Nota técnica:** Se establecieron relaciones de **uno a muchos (1:*)** con integridad referencial, optimizando el rendimiento de las consultas dinámicas.
-
 ##  Inteligencia de Datos (DAX)
 Se desarrollaron medidas personalizadas para transformar datos planos en **indicadores de rendimiento (KPIs)** accionables:
 * **Análisis de Participación:** Uso de `CALCULATE` y `ALL` para determinar el **peso porcentual** de cada vendedor frente al total corporativo.
